@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message my Marine</title>
+    <link rel="stylesheet" href="./Assets/css/style.css">
+   
+</head>
+<body>
+    <header>
+        <h1>Message my Marine</h1>
+    </header>
+    <nav>
+        <a href="#" onclick="toggleLoginForm()">Log In</a>
+        <a href="./translate.html">Translate</a>
+        <a href="./missionstatment.html">Mission Statement</a>
+    </nav>
+    <div class="container">
+        <h2>Compose a Message</h2>
+        <form>
+            <label for="recipient">Recipient:</label>
+            <input type="text" id="recipient" name="recipient" required>
+            
+            <label for="message">Your Note:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    <script src="./Assets/js/scipt.js"></script>
+</body>
+</html>
